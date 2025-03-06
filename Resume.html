@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Resume</title>
+
+        <style>
+
+            body {
+                background-color: white;
+                padding: 0;
+                margin: 0;
+            }
+
+            h1 {
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: black;
+                font-size: 48px;
+                letter-spacing: 2px;
+                text-align: center;
+                position: relative;
+                top: -100px;
+            }
+
+            .topnav {
+                background-color: white;
+                overflow: hidden;
+                box-shadow: 0 0 4px gray, 0 0 8px gray;
+                position: sticky;
+                top: 0;
+                width: 100%;
+                z-index: 2000;
+                line-height: 60px;
+            }
+
+            .topnav a {
+                font-family:'Times New Roman', Times, serif;
+                color: black;
+                font-size: 23px;
+                float: right;
+                padding: 17px 17px;
+                text-decoration: none;
+                letter-spacing: 2px;
+            }
+
+            .topnav a.active {
+                background-color: white;
+                font-size: 35px;
+                color: black;
+                float: left;
+            }
+
+            .topnav a:hover {
+                background-color: white;
+                color:rgb(15, 15, 106);
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            .first-layout {
+                background-color: rgb(246, 236, 223);
+                position: relative;
+                bottom: -2px;
+                width: 1400px;
+                padding: 240px;
+            }
+
+            .pdf {
+                justify-content: center;
+                position: relative;
+                width: -400px;
+                right: -100px;
+                box-shadow: 0 0 4px gray, 0 0 8px gray;
+            }
+
+            .btn-lg {
+                align-items: center;
+                width: 190px;
+                padding: 20px;
+                border-radius: 32px;
+                border: 2px solid white;
+                background-color: blue;
+                color: white;
+                font-size: 20px;
+                position: relative;
+                top: -170px;
+                right: -170px;
+                cursor: pointer;
+            }
+
+            .second-layout {
+                background-color: white;
+                width: 1200px;
+                padding: 250px;
+            }
+        </style>
+        </head>
+
+        <body>
+
+        <div class="topnav">
+            <a class="active" href="index.html">Tyree Black</a>
+            <a href="Contact_Tyree_Black.html">Contact</a>
+            <a href="Projects.html">Projects</a>
+            <a href="Education.html">Education</a>
+            <a href="Resume.html">Resume</a>
+            <a href="Experience.html">Experience</a>
+        </div>
+
+        <div class="first-layout">
+            <h1>Resume</h1>
+        <iframe class="pdf"
+        src="Tyree Black resume.pdf" width="400px" height="400px"> 
+        </iframe>
+        <a href="Tyree Black resume.pdf" target= "_blank">
+        <button type="button" class="btn-lg">View Resume</button>
+        </a>
+        </div>
+
+        <script>
+            
+        </script>
+
+        <div class="second-layout">
+        </div>
+
+        </body>
+        </html>
