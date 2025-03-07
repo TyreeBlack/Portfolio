@@ -9,7 +9,7 @@
         <style>
 
             body {
-                background-color: rgb(226, 215, 202);
+                background-color: rgb(234, 226, 216);
                 margin: 0;
                 overflow-x: hidden;
             }
@@ -20,13 +20,25 @@
                 right: -973px;
             }
 
+            .bsu-logo {
+                position: relative;
+                top: -500px;
+                right: -977px;
+            }
+
+            .bowie-bulldogs {
+                position: relative;
+                top: -475px;
+                right: -977px;
+            }
+
             h2 {
                 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 text-align: center;
                 font-size: 65px;
                 position: relative;
                 top: -150px;
-                left: -120px;
+                left: -180px;
                 text-decoration: underline;
             }
 
@@ -35,7 +47,7 @@
                 font-size: 17px;
                 font-weight: normal;
                 position: relative;
-                top: -80px;
+                top: -230px;
                 right: -1050px;
             
             }
@@ -82,7 +94,7 @@
 
             .header-1 {
                 position: relative;
-                top: -200px;
+                top: -240px;
             }
 
             .header-2 {
@@ -95,12 +107,12 @@
                 font-size: 21px;
                 position: relative;
                 right: -1050px;
-                top: -90px;
+                top: -240px;
             }
 
-            .p-header {
+            .Bowie-State {
                 position: relative;
-                top: -200px;
+                top: -240px;
             }
 
             .College-Park {
@@ -120,7 +132,7 @@
             .bachelor-degree {
                 font-size: 18px;
                 position: relative;
-                top: -250px;
+                top: -290px;
             }
 
             .degree-title {
@@ -131,12 +143,17 @@
 
             .location {
                 position: relative;
-                top: -170px;
+                top: -210px;
             }
 
             .location-2 {
+                font-size: 20px;
                 position: relative;
                 top: -360px;
+            }
+
+            .high-school-location {
+                font-size: 20px;
             }
 
             .topnav {
@@ -244,7 +261,7 @@
                 position: absolute;
                 left: 60%;
                 top: 260px;
-                height: 740px;
+                height: 800px;
             }
             .second-layout {
                 background-color:rgb(253, 244, 231);
@@ -256,6 +273,7 @@
 
             .technical-skills {
                 font-size: 28px;
+                font-weight: bold;
                 position: relative;
                 top: -300px;
                 right: -600px;
@@ -485,17 +503,28 @@
 
                 <!--Bachelor Degree Timeline-->
                 <h1 class="header-1">From 08/2021 | To 05/2025</h1>
-                <p class="p-header">Bowie State University</p>
+                <p class="Bowie-State">Bowie State University</p>
                 <p class="location">Bowie, MD</p>
                 <p class="bachelor-degree">B.S. Computer Technology</p>
+                <img src="images/main.png" class="bsu-logo" width="80px" height="80px">
 
                 <!--High School Timeline-->
                 <h1>From 09/2017 | To 07/2020</h1>
                 <p>Bowie High School</p>
                 <p class="degree-title">High School Diploma</p>
-                <p class="p-tag">Bowie, MD</p>
+                <p class="high-school-location">Bowie, MD</p>
+                <img src="images/bowie-bulldogs.png" class="bowie-bulldogs" width="80px" height="80px">
             </div>
-
+                  
+            <div clas="chatbot-container">
+           <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+            <df-messenger
+            chat-icon="https:&#x2F;&#x2F;i.imgur.com&#x2F;ClAWzIO.png"
+            chat-title="AskTyree&#x27;sAssistant"
+            agent-id="56971a31-89ff-4b59-a7ed-ec854c6b4208"
+            language-code="en"
+            ></df-messenger>
+            </div>
 
             <!--Skills Layout Section-->
             <div class="second-layout">
