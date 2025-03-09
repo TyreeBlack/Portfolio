@@ -37,15 +37,24 @@
                 cursor: pointer;
             }
 
-            .fa-solid.fa-file-arrow-down {
+            .upload-icon {
                 font-size: 40px;
                 color: gray;
                 position: relative;
-                top: -190px;
-                right: -90px;
+                top: -100px;
+                left: -100px;
             }
 
-            .fa-solid.fa-shield {
+            .download-icon {
+                color: black;
+                font-size: 40px;
+                position: relative;
+                top: -180px;
+                right: -395px;
+                cursor: pointer;
+            }
+
+            .shield-1 {
                 font-size: 185px;
                 color: transparent;
                -webkit-text-stroke: 2px rgb(117, 113, 113);
@@ -54,6 +63,16 @@
                 left: -440px;
                 top: -120px;
 
+            }
+
+            .shield-2 {
+                font-size: 205px;
+                color: transparent;
+                -webkit-text-stroke: 2px rgb(117, 113, 113);
+               filter: drop-shadow(0px 0px 2px rgb(131, 131, 131));
+                position: relative;
+                top: -135px;
+                left: -350px;
             }
 
             .security {
@@ -110,11 +129,20 @@
                 top: -140px;
             }
 
+            h5 {
+                font-size: 30px;
+                text-align: center;
+                position: relative;
+                top: -100px;
+            }
+
             .second-header {
                 color: rgb(15, 15, 106);
                 font-family:'Times New Roman', Times, serif;
-                font-size: 30px;
+                font-size: 23px;
                 float: left;
+                position: relative;
+                top: -110px;
                 
             }
 
@@ -151,6 +179,8 @@
             li {
                 font-size: 17px;
                 color: black;
+                position: relative;
+                top: -50px;
             }
 
             .bold {
@@ -176,18 +206,47 @@
                 right: -1px;
             }
 
+            .project-features {
+                font-size: 25px;
+                position: relative;
+                left: -410px;
+                top: -60px;
+            }
+
             .gmail {
                 color: rgb(15,15,106);
                 position: relative;
                 right: -90px;
             }
 
-
-
             .project {
                 position: relative;
                 top: -55px;
+                left: -700px;
                 box-shadow: 0 0 4px black, 0 0 4px black;
+            }
+
+            .project-2 {
+                position: relative;
+                top: -770px;
+                right: -870px;
+                box-shadow: 0 0 4px black, 0 0 4px black;
+
+            }
+
+            .more-project-2 {
+                color: rgb(15, 15, 106);
+                font-size: 27px;
+                font-weight: normal;
+                position: relative;
+                top: -800px;
+                right: -380px;
+            }
+
+            .pepsico {
+                position: relative;
+                top: -820px;
+                right: -800px;
             }
 
             .certificate {
@@ -228,7 +287,7 @@
                 color: black;
                 position: relative;
                 top: -280px;
-                left: -210px;
+                left: -245px;
             }
 
             .certificate-term-1 {
@@ -246,12 +305,12 @@
             }
 
             .hr {
-                border: 1px solid black;
+                border: 1px solid blue;
                 width: 400px;
                 position: absolute;
                 right: 35%;
-                left: 45%;
-                top: 170%;
+                left: 42%;
+                top: 172%;
             }
 
             .hr-line {
@@ -322,7 +381,7 @@
 
             .topnav a:hover {
                 background-color: white;
-                color: black;
+                color: rgb(15, 15, 181);
                 text-decoration: underline;
             }
 
@@ -354,7 +413,7 @@
                 height: 80px;
                 position: relative;
                 top: -680px;
-                right: -525px;
+                right: -495px;
                 box-shadow: 0 0 4px black, 0 0 2px black;
 
             }
@@ -370,7 +429,7 @@
             .second-layout {
                 background-color: rgb(240, 240, 240);
                 width: 1400px;
-                padding: 240px;
+                padding: 210px;
             }
 
             .third-layout {
@@ -401,6 +460,25 @@
                 outline-width: 2px;
                 outline-style: solid;
                 outline-color: rgb(167, 165, 165);
+            }
+
+            .container-4 {
+                background-color: white;
+                width: 400px;
+                padding: 90px;
+                position: relative;
+                box-shadow: 0 0 4px gray, 0 0 4px gray;
+                top: -200px;
+            }
+
+            .container-5 {
+                background-color: white;
+                width: 400px;
+                padding: 90px;
+                position: relative;
+                box-shadow: 0 0 4px gray, 0 0 4px gray;
+                top: -200px;
+                right: -250px;
             }
             .fourth-layout {
                 background-color: rgb(204, 202, 202);
@@ -488,12 +566,21 @@
         <div class="second-layout">
             <h4>FEATURED WORK</h4>
             <div class="hr"></div>
-            <h2 class="second-header"></h2>
+            <h2 class="second-header">Implementation in Cryptographic Methods for protecting sensitive data in IoT devices</h2>
           <img src="images/Project.png" class="project" width="500px" height="500px">
           <ul>
+            <h3 class="project-features">Responsibilites Assoicated with this Project:</h3>
             <li>Collaborated on a research project as part of the SURI internship to enhance IoT data security.</li><br>
             <li>Developed encryption algorithms using Python to simulate secure data transmissions.</li><br>
             <li>Presented findings and methodologies to a public audience, receiving recognition for detailed research.</li><br>
+          </ul>
+
+          <img src="images/PepsiCo-Topology.png" class="project-2" width="500px" height="500px">
+          <ul>
+            <h5 class="more-project-2">Responsibilites assiocated with this project:</h5>
+            <li class="pepsico"></li>
+            <li class="pepsico"></li>
+            <li class="pepsico"></li>
           </ul>
         </div>
 
@@ -502,21 +589,21 @@
             <h2 class="third-header">CERTIFICATES</h2>
             <div class="container-2">
             <img src="images/CompTIA Security+.png" class="security" width="120px" height="120px">
-            <i class="fa-solid fa-shield"></i>
+            <i class="fa-solid fa-shield shield-1"></i>
             <p class="certificate">CompTIA Security+</p>
             <p class="candidate">Candidate ID:COMP001022556475</p>
             <p class="certificate-term">Exp.Date: June 2027</p>
             <a href="CompTIA Security+ ce certificate.pdf" download>
-            <i class="fa-solid fa-file-arrow-down"></i>
+            <i class="fa-solid fa-file-arrow-down upload-icon"></i>
             </a>
             </div> 
             <div class="container-3">
             <img src="images/CySA+ce certified logo.jpg" class="cybersecurity" width="200px" height="200px">
-            <i class="fa-solid fa-shield"></i>
+            <i class="fa-solid fa-shield shield-2"></i>
             <p class="certificate-2">CompTIA CySA+</p>
             <p class="candidate-ID">Candidate ID:COMP001022556475</p>
             <p class="certificate-term-1">Exp.Date: Februrary 2028</p>
-            <i class="fa-solid fa-file-arrow-down"></i>
+            <i class="fa-solid fa-file-arrow-down download-icon"></i>
             </div>
         </div>
 
@@ -526,6 +613,13 @@
             <div class="hr-line"></div>
             <div class="hr-line2"></div>
             <div class="vl-line"></div>
+            <div class="container-4">
+            <h5>My Journey</h5>
+            <p class="journey"></p>
+            </div>
+            <div class="container-5">
+            <h5 class="challenges">Challenges</h5>
+            </div>
             <img src="images/Qr-Code.png" class="qr-logo" widht="120px" height="120px" alt="Scan this to visit Tyree Black's portfolio">
             </div>
            
