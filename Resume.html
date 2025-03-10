@@ -12,6 +12,7 @@
                 background-color: white;
                 padding: 0;
                 margin: 0;
+                overflow-x: hidden;
             }
 
             h1 {
@@ -21,7 +22,7 @@
                 letter-spacing: 2px;
                 text-align: center;
                 position: relative;
-                top: -100px;
+                top: -200px;
             }
 
             .topnav {
@@ -54,7 +55,7 @@
 
             .topnav a:hover {
                 background-color: white;
-                color:rgb(15, 15, 106);
+                color:blue;
                 text-decoration: underline;
                 cursor: pointer;
             }
@@ -69,9 +70,12 @@
             .pdf {
                 justify-content: center;
                 position: relative;
+                border: none;
                 width: -400px;
-                right: -100px;
+                top: -200px;
+                right: -500px;
                 box-shadow: 0 0 4px gray, 0 0 8px gray;
+                overflow-y: hidden;
             }
 
             .btn-lg {
@@ -82,18 +86,39 @@
                 border: 2px solid white;
                 background-color: blue;
                 color: white;
-                font-size: 20px;
+                font-size: 19px;
                 position: relative;
-                top: -170px;
-                right: -170px;
+                top: -140px;
+                right: -90px;
                 cursor: pointer;
             }
 
-            .second-layout {
-                background-color: white;
-                width: 1200px;
-                padding: 250px;
+            .btn-view {
+                background-color: blue;
+                width: 200px;
+                padding: 25px;
+                border-radius: 32px;
+                border: 2px solid white;
+                font-size: 17px;
+                color: white;
+                cursor: pointer;
+                position: relative;
+                top: -140px;
+                right: -120px;
+
             }
+
+            #footer {
+                background-color: white;
+                position: relative;
+                font-size: 25px;
+                color: blue;
+                text-align: center;
+                bottom: -400px;
+                padding-bottom: 5px;
+
+            }
+
         </style>
         </head>
 
@@ -108,22 +133,34 @@
             <a href="Experience.html">Experience</a>
         </div>
 
+        <div class="chatbot-container">
+            <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+            <df-messenger
+              chat-icon="https:&#x2F;&#x2F;i.imgur.com&#x2F;ClAWzIO.png"
+              chat-title="AskTyree&#x27;sAssistant"
+              agent-id="56971a31-89ff-4b59-a7ed-ec854c6b4208"
+              language-code="en"
+            ></df-messenger>
+        </div>
+
         <div class="first-layout">
             <h1>Resume</h1>
-        <iframe class="pdf"
-        src="Tyree Black resume.pdf" width="400px" height="400px"> 
+        <iframe src="https://docs.google.com/viewer?url=https://drive.google.com/uc?id=1yR6AlRCH9RUsmkPjmc2FIiP0vM4OnF_H&embedded=true" class="pdf" width="400px" height="400px" style="border: none"> 
         </iframe>
-        <a href="Tyree Black resume.pdf" target= "_blank">
+        <a href="documents/Tyree Black Resume.pdf" target= "_blank">
         <button type="button" class="btn-lg">View Resume</button>
         </a>
-        </div>
+        
+        <a href="documents/Tyree Black Resume.pdf" download>           
+        <button type="button" class="btn-view">Download Resume</button>
+        </a>
 
-        <script>
-            
+         <script>
+
         </script>
-
-        <div class="second-layout">
-        </div>
-
+         
+        <footer id="footer">
+        <p> @Copyright &copy; 2025 by Tyree Black | All Rights Reserved</p>
+        </footer>
         </body>
         </html>
