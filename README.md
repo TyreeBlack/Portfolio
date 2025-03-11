@@ -1,5 +1,6 @@
 🖥️ Tyree Black's Portfolio
-Welcome to my Portfolio! 🎉 This repository showcases my journey as an aspiring Cybersecurity Analyst and Web Developer. You'll find a collection of my projects, including a chatbot, QR code generator, and multiple interactive HTML pages.
+
+Welcome to my Portfolio! 🎉 This repository showcases my journey as an aspiring Cybersecurity Analyst.  You'll find a collection of my projects, including a chatbot, QR code generator, and multiple interactive HTML pages.
 
 🚀 Features
 🤖 Chatbot
