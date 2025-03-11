@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
         <title>Resume</title>
 
         <style>
@@ -13,6 +15,18 @@
                 padding: 0;
                 margin: 0;
                 overflow-x: hidden;
+            }
+
+            .fa-brands.fa-linkedin {
+                color: rgb(18, 18, 151);
+                font-size: 30px;
+
+            }
+
+            .fa-brands.fa-github {
+                color: rgb(18, 18, 151);
+                font-size: 30px;
+                
             }
 
             h1 {
@@ -28,6 +42,11 @@
             h2 {
                 font-family: 'Roboto', sans-serif;
                 color: black;
+            }
+
+            .highlight {
+                font-weight: bold;
+                color: darkblue;
             }
 
             .card {
@@ -127,14 +146,11 @@
             }
 
             #footer {
-                background-color: white;
-                position: relative;
                 font-size: 25px;
-                color: blue;
+                position: relative;
                 text-align: center;
+                padding-bottom: 30px;
                 bottom: -400px;
-                padding-bottom: 5px;
-
             }
 
         </style>
@@ -181,8 +197,10 @@
 
         </script>
          
-        <footer id="footer">
-        <p> @Copyright &copy; 2025 by Tyree Black | All Rights Reserved</p>
-        </footer>
+         <footer id="footer">
+            <p>Copyright &copy; 2025 Portfolio by <span class="highlight">Tyree Black</span> | All Rights Reserved
+             | Socials: <a href="https://www.linkedin.com/in/tyree-black-297344227/" target="_blank"><i class="fa-brands fa-linkedin"></i></a> | <a href="https://github.com/TyreeBlack" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </p>
+            </footer>
         </body>
         </html>
